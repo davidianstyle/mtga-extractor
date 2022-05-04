@@ -14,7 +14,7 @@ parser.add_argument("--db", "-d", default="card_data.json",
                     help="Path to card database to create or use")
 parser.add_argument("--set", help="Three letter set code to filter for")
 parser.add_argument("--output", "-o", default="out", help="Output directory")
-parser.add_argument("--mtga", default="C:\Program Files\Wizards of the Coast\MTGA",
+parser.add_argument("--mtga", default="D:\Program Files\Wizards of the Coast\MTGA",
                     help="Path to MTGA install directory")
 parser.add_argument("--lang", "-l", default="en-US",
                     help="Localization language to dump database in")
